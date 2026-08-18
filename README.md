@@ -57,8 +57,3 @@ src/
 - User identity is derived from the verified JWT token, never trusted from request body/params — preventing users from accessing or modifying another user's data
 - Generic error messages on login failures (no distinction between "user not found" and "wrong password") to prevent user enumeration
 
-
-
-## Notes
-
-This project was built as a hands-on learning exercise to apply backend fundamentals: authentication, authorization, relational database design, and RESTful API design.
